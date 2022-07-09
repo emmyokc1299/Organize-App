@@ -1,0 +1,42 @@
+.form {
+  position: relative;
+}
+
+.form-input {
+  background: none;
+  background-color: white;
+  color: darkslategrey;
+  padding: 10px 10px 10px 5px;
+  font-size: 18px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid darkslategrey;
+  margin: 45px 0;
+}
+
+.form > input[type="password"] {
+  letter-spacing: 0.3em;
+}
+
+.form-input:focus {
+  outline: none;
+  top: 15px;
+  background-color: white;
+}
+
+.form-input-label {
+  font-family: "Lato", sans-serif;
+  color: darkslategrey;
+  font-size: 16px;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  position: absolute;
+}
+
+.shrink,
+.form-input:focus ~ .form-input-label {
+  top: -8px;
+  font-size: 12px;
+}

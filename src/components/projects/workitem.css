@@ -1,0 +1,154 @@
+.work-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: auto;
+  height: 50px;
+  font-size: 1.2rem;
+  font-family: "Roboto" sans-serif;
+  margin-bottom: 6px;
+}
+
+.under-review {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: red;
+  margin-bottom: 6px;
+  height: 50px;
+  font-size: 1.2rem;
+  font-family: "Roboto" sans-serif;
+}
+
+.row-field {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  color: darkslategrey;
+  background-color: #fcfcfc;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid;
+  text-align: center;
+}
+
+.row-job-name {
+  width: 40%;
+}
+.row-date-accepted {
+  width: 10%;
+}
+.row-paid {
+  width: 8%;
+}
+.row-status {
+  width: 22%;
+}
+.row-price {
+  width: 7%;
+}
+
+.edit,
+.delete {
+  display: flex;
+  flex-direction: row;
+  width: 5%;
+  height: 100%;
+  border: 2px solid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.2rem;
+  background-color: #fcfcfc;
+}
+
+.delete {
+  font-size: 1.2rem;
+}
+
+.edit:hover,
+.delete:hover {
+  background-color: darkslategrey;
+  color: #fcfcfc;
+}
+
+/*
+.work-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: auto;
+  height: 50px;
+  font-size: 1.2rem;
+  font-family: "Roboto" sans-serif;
+  margin-bottom: 6px;
+}
+
+.under-review {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: red;
+  margin-bottom: 6px;
+  height: 50px;
+  font-size: 1.2rem;
+  font-family: "Roboto" sans-serif;
+}
+
+.row-field {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  color: darkslategrey;
+  background-color: #fcfcfc;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid;
+  text-align: center;
+}
+
+.row-job-name {
+  width: 40%;
+}
+.row-date-accepted {
+  width: 10%;
+}
+.row-paid {
+  width: 8%;
+}
+.row-status {
+  width: 22%;
+}
+.row-price {
+  width: 7%;
+}
+
+.edit,
+.delete {
+  display: flex;
+  flex-direction: row;
+  width: 5%;
+  height: 100%;
+  border: 2px solid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+  font-size: 1.2rem;
+  background-color: #fcfcfc;
+}
+
+.delete {
+  font-size: 1.2rem;
+  }
+
+.edit:hover,
+.delete:hover {
+  background-color: darkslategrey;
+  color: #fcfcfc;
+}
+
+*/

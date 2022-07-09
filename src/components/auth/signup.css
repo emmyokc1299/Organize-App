@@ -1,0 +1,23 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sign-up {
+  width: 26%;
+  height: 500px;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.sign-up > p {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.button-single {
+  display: flex;
+  justify-content: center;
+}

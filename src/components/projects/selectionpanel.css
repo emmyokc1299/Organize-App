@@ -1,0 +1,16 @@
+.selection {
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 9%;
+  margin-right: 9%;
+  margin-top: 25px;
+  margin-bottom: 13px;
+  color: darkslategrey;
+}
+
+.selection > div {
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+}

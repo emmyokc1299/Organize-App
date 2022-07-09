@@ -1,0 +1,72 @@
+.paginate {
+  width: 55%;
+  height: 30px;
+  margin: 10px auto;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.page {
+  width: 20%;
+  text-align: center;
+  margin-top: 3px;
+  font-size: 1.2em;
+  font-weight: 600;
+  font-family: "lato", sans-serif;
+  color: darkslategrey;
+}
+
+.left,
+.right {
+  border: 2px solid darkslategrey;
+  width: 10%;
+  border-radius: 3px 3px 3px 3px;
+  transition: transform 0.3s;
+}
+
+.left:hover,
+.right:hover {
+  background-color: floralwhite;
+  transform: scale(1.1);
+}
+
+/*
+
+.paginate {
+  width: 55%;
+  height: 30px;
+  margin: 10px auto;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 1px solid; 
+}
+
+.page {
+  width: 20%;
+  text-align: center;
+  margin-top: 3px;
+  font-size: 1.2em;
+  font-weight: 600;
+  font-family: "lato", sans-serif;
+  color: darkslategrey;
+}
+
+.left,
+.right {
+  border: 2px solid darkslategrey;
+  width: 10%;
+  border-radius: 3px 3px 3px 3px;
+  transition: transform 0.3s;
+}
+
+.left:hover,
+.right:hover {
+  background-color: floralwhite;
+  transform: scale(1.1);
+}
+
+*/

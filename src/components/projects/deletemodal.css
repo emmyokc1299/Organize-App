@@ -1,0 +1,83 @@
+.deletemodal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(12, 12, 12, 0.6);
+}
+
+.deletemodal-main {
+  position: fixed;
+  background: rgb(255, 255, 255);
+  width: 65%;
+  height: 150px;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.cancel-delete {
+  position: fixed;
+  top: 68%;
+  left: 52%;
+  height: 40px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(131, 41, 41);
+  border: 1px solid rgb(131, 41, 41);
+  border-radius: 3px;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.cancel-delete:hover {
+  background-color: rgb(12, 48, 12);
+  color: white;
+  cursor: pointer;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.delete-div {
+  margin-top: 30px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+}
+
+.delete-button {
+  position: fixed;
+  top: 68%;
+  left: 42%;
+  height: 40px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(131, 41, 41);
+  border: 1px solid rgb(131, 41, 41);
+  border-radius: 3px;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: rgb(230, 8, 8);
+  color: white;
+  cursor: pointer;
+}
+.delete-button:active {
+  background-color: rgb(226, 22, 15);
+  cursor: pointer;
+}

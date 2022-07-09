@@ -1,0 +1,78 @@
+.enter-work {
+  margin-top: 20px;
+  color: #2f4f4f;
+  font-size: 1.3rem;
+}
+
+.work {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.enter {
+  border: none;
+  font-size: 1rem;
+}
+
+.enter:focus {
+  outline: none;
+}
+
+.work-name,
+.paid,
+.date,
+.status,
+.price {
+  border-bottom: 3px solid #2f4f4f;
+}
+
+.work-input,
+.date-input,
+.paid-input,
+.status-input,
+.price-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.dollar {
+  font-size: 1.1rem;
+}
+
+.work-input {
+  width: 20%;
+}
+
+.work-name {
+  width: 100%;
+  background-color: white;
+}
+
+.form-options {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.button {
+  height: 2rem;
+  width: 7%;
+}
+
+.btn {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  color: #2f4f4f;
+  font-size: 1.05rem;
+  font-family: "Roboto", sans-serif;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.btn:hover {
+  background-color: #2f4f4f;
+  color: white;
+}

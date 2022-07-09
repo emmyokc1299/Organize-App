@@ -1,0 +1,45 @@
+.main-header {
+  box-sizing: border-box;
+  width: 100%;
+  height: 80px;
+  /*background-color: #f0f8ff;*/
+  padding: 0.2rem 1rem 0.2rem 1rem;
+  padding-right: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 2.7rem;
+  text-decoration: none;
+  margin-top: 0.3rem;
+  color: darkslategrey;
+}
+
+.logo {
+  margin-top: 0.3rem;
+  color: darkslategrey;
+}
+
+.not-logo {
+  width: 22%;
+  font-size: 1.35rem;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: darkslategrey;
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+  color: darkslategrey;
+}
+
+.link:visited {
+  color: darkslategrey;
+}

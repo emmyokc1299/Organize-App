@@ -1,0 +1,22 @@
+.form-button {
+  height: 50px;
+  width: 150px;
+  border: none;
+  background-color: #2f4f4f;
+  color: antiquewhite;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.form-button:hover {
+  border: none;
+  background-color: antiquewhite;
+  color: #2f4f4f;
+}
+.form-button:focus {
+  background-color: white;
+  color: #2f4f4f;
+  border: 2px solid #2f4f4f;
+}
